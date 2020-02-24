@@ -2,7 +2,7 @@ body {
     font-family: 'Roboto Slab';
 }
 .container {
-    margin-bottom: 30px;
+    margin-bottom: 100px;
 }
 .single-product {
     text-align: center;
@@ -21,11 +21,6 @@ span.right {
 .cat-img img {
     width: fit-content;
 }
-
-.product-title {
-    text-align: center;
-}
-
 .single-cat-img {
     text-align: center;
     margin-bottom: 10px;
@@ -33,3 +28,35 @@ span.right {
     box-shadow: 3px 2px 5px 0px rgba(219,216,219,1);
 }
 
+.single-product {
+    box-shadow: 2px 0px 11px -5px rgba(0,0,0,0.67);
+    padding: 15px 0px;
+    border-radius: 5px;
+}
+
+.single-product p {
+    color: #CACACA;
+    margin: 10px;
+    font-size: 11px;
+}
+
+.single-product h4 {
+    font-size: 20px;
+    margin: 15px;
+}
+
+.product-title{
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.product-title.underline:before {
+    content: "";
+    width: 130px;
+    height: 5px;
+    background: #FFAA2E;
+    border-radius: 2px;
+    position: absolute;
+    left: 44%;
+    margin-top: 3%;
+}
