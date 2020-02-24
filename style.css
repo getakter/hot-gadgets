@@ -4,6 +4,10 @@ body {
 .container {
     margin-bottom: 100px;
 }
+nav.navbar {
+    margin-bottom: -60px;
+}
+
 .single-product {
     text-align: center;
 }
