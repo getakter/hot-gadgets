@@ -1,6 +1,11 @@
 body {
     font-family: 'Roboto Slab';
 }
+
+nav.navbar {
+    margin-bottom: -60px;
+}
+
 .container {
     margin-bottom: 100px;
 }
