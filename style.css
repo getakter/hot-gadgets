@@ -9,6 +9,12 @@ nav.navbar {
     margin-bottom: -60px;
 }
 
+.carousel-indicators li {
+    background-color: #FFD019;
+    height: 5px;
+    border-radius: 3px;
+}
+
 .single-product {
     text-align: center;
 }
