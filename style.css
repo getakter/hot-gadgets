@@ -4,6 +4,7 @@ body {
 .container {
     margin-bottom: 100px;
 }
+
 nav.navbar {
     margin-bottom: -60px;
 }
@@ -54,14 +55,13 @@ span.right {
     margin-bottom: 40px;
 }
 
-.product-title.underline:before {
+.underline:after {
     content: "";
-    width: 130px;
-    height: 5px;
-    background: #FFAA2E;
-    border-radius: 2px;
     position: absolute;
-    left: 44%;
-    margin-top: 3%;
-    
+    height: 5px;
+    background: #FFC107;
+    top: 120%;
+    width: 10%;
+    left: 45%;
+    border-radius: 5px;
 }
