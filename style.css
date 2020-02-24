@@ -1,0 +1,35 @@
+body {
+    font-family: 'Roboto Slab';
+}
+.container {
+    margin-bottom: 30px;
+}
+.single-product {
+    text-align: center;
+}
+span.right {
+    float: right;
+    color: #FF9D01;
+    font-size: 16px;
+}
+
+.right-title {
+    font-size: 14px;
+    color: #FFA008;
+}
+
+.cat-img img {
+    width: fit-content;
+}
+
+.product-title {
+    text-align: center;
+}
+
+.single-cat-img {
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 20px 0px;
+    box-shadow: 3px 2px 5px 0px rgba(219,216,219,1);
+}
+
